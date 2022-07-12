@@ -54,11 +54,17 @@ button {
 table {
 	border:1px solid #EEEEEE;
   margin: 0 auto;
-    padding:0; 
-    border-collapse: collapse;
+  padding:0; 
+  border-collapse: collapse;
+  width: 100%;
 }
 
-
+th {
+  padding: 12px;
+  background: darkblue;
+  color: white;
+  font-size:  20px;
+}
 
 .tr {
   padding: 12px;
