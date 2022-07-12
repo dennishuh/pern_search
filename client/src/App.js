@@ -14,8 +14,6 @@ function App() {
 		try {
 			const users = await axios.get(`/api/v1/users?query=${search}`);
 
-			console.log('users.data', users.data);
-
 			setUsers(users.data);
 		} catch (error) {
 			console.error(error.message);

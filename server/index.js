@@ -14,7 +14,7 @@ app.use(express.json());
 
 if (process.env.NODE_ENV === 'production') {
 	// serve static content
-	app.use(express.static(path.join(__dirname, 'client/build')));
+	app.use(express.static(ath.join(__dirname, '..', 'client/build')));
 }
 
 app.use('/api/v1/users', userRouter);
