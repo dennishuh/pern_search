@@ -23,6 +23,10 @@ DB_PASSWORD=YOUR_DB_PASSWORD
 1. run `\i LOCATION_TO_FILE/database.sql`
 1. `\q` to exit
 
+## See it in action
+
+Currently running on heroku at https://pern-search.herokuapp.com/
+
 ## Run app
 
 1. In root directory run `npm run dev`;
